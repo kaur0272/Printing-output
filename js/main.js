@@ -1,6 +1,7 @@
 /*global alert*/
 //TASK 1
 //declaring variables a, b, c
+alert("test");
 
 var output, a, b, c;
 a = 3;
