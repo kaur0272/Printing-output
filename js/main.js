@@ -40,3 +40,23 @@ var output_1 = "My name is" + " " + first_name + " " + last_name + "." + "\n"+
     
 
 alert(output_1);
+
+//task 3
+var numbers = [
+    Math.floor(Math.random() * (200 - 100) + 100), 
+    Math.floor(Math.random() * (200 - 100) + 100), 
+    Math.floor(Math.random() * (200 - 100) + 100), 
+    Math.floor(Math.random() * (200 - 100) + 100), 
+    Math.floor(Math.random() * (200 - 100) + 100)
+];
+
+let v = numbers[0];
+let v2 = numbers[(numbers.length - 1)];
+let sum = (v + v2);
+
+if(sum % 2 === 0){
+    alert (sum + " is even ");
+    
+} else {
+    alert(sum + "is odd");
+}
