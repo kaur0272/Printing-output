@@ -53,8 +53,11 @@ let v = numbers[0];
 let v2 = numbers[(numbers.length - 1)];
 let sum = (v + v2);
 
-if (sum % 2 === 0){
-    alert (v + " + " + v2+ " = " + sum +"\n"+ " This is  an even Number");
+if(sum % 2 === 0){
+    alert (sum + "is even");
+    
 } else {
-    alert(v1 + " + " + v2 + " = " + sum +"\n" +" This is  an odd Number");
+    alert(sum + "is odd");
 }
+
+
