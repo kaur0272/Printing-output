@@ -54,7 +54,7 @@ let v2 = numbers[(numbers.length - 1)];
 let sum = (v + v2);
 
 if(sum % 2 === 0){
-    alert (sum + " is even ");
+    alert (sum + "is even");
     
 } else {
     alert(sum + "is odd");
