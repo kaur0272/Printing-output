@@ -54,8 +54,10 @@ let v2 = numbers[(numbers.length - 1)];
 let sum = (v + v2);
 
 if(sum % 2 === 0){
-    alert (sum + "is even");
+    alert (n1 +" + "+ n2+ " = " + sum +"\n"+ "is an odd Number");
     
 } else {
-    alert(sum + "is odd");
+    alert(n1 +" + "+ n2 +" = " + sum +"\n" +"is an odd Number");
 }
+
+
